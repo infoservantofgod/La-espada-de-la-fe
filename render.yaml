@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: la-espada-de-la-fe
+    runtime: static
+    buildCommand: echo "Static site ready"
+    staticPublishPath: public
